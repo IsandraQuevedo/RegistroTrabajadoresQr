@@ -1,9 +1,9 @@
-#📚 Sistema de Registro y Control de Personal (E.B.N. Cristóbal Rojas)
+# 📚 Sistema de Registro y Control de Personal (E.B.N. Cristóbal Rojas)
 
-##✨ Descripción del Proyecto
+## ✨ Descripción del Proyecto
 Este proyecto presenta un sistema integral que automatiza el registro y control de entrada y salida del personal de la Escuela Básica Nacional (E.B.N.) Cristóbal Rojas. Desarrollado con MIT App Inventor para la interfaz móvil, el sistema permite escanear códigos QR personalizados para registrar la asistencia del personal directamente en una base de datos en la nube. Es una combinación de varios componentes que facilitan una gestión de asistencia digital, eficiente y en tiempo real.
 
-##🚀 Funcionalidades Clave
+## 🚀 Funcionalidades Clave
 Registro de Asistencia por QR: El personal escanea su fotocheck (código QR único) con la aplicación móvil.
 
 Consulta y Registro en Tiempo Real: La aplicación consulta los datos del personal (nombre, apellido, cargo, código, foto) y registra la fecha y hora exacta de entrada/salida desde el dispositivo móvil.
@@ -14,7 +14,7 @@ Generación de QR Personalizados: Códigos QR únicos generados a través de mac
 
 Integración con Formularios de Google: Utilizado para enviar y registrar la asistencia directamente en la hoja de cálculo.
 
-##🛠️ Tecnologías Utilizadas
+## 🛠️ Tecnologías Utilizadas
 MIT App Inventor: Desarrollo de la aplicación móvil para Android (frontend y lógica de interacción).
 
 Google Sheets: Base de datos en la nube para almacenar la información del personal y los registros de asistencia.
@@ -27,7 +27,7 @@ Microsoft Excel (con Macros): Herramienta utilizada para la generación masiva y
 
 Microsoft OneDrive: Almacenamiento en la nube de las imágenes de los códigos QR, accesibles por la aplicación.
 
-##🔗 Arquitectura del Sistema y Flujo de Trabajo
+## 🔗 Arquitectura del Sistema y Flujo de Trabajo
 El sistema opera bajo la siguiente secuencia lógica:
 
 Preparación de Datos:
@@ -52,7 +52,7 @@ El código QR leído se usa para consultar la información del personal (a trav�
 
 Simultáneamente, la app envía el Código del personal y la Hora/Fecha actual (del dispositivo) a Google Forms, registrando así la asistencia en Google Sheets.
 
-##⚠️ Nota Importante: Privacidad de Datos y Configuración
+## ⚠️ Nota Importante: Privacidad de Datos y Configuración
 Por motivos de privacidad y seguridad, este repositorio NO CONTIENE datos reales ni enlaces directos a las hojas de cálculo, formularios o scripts de Google utilizados en el entorno de producción. Las URLs y IDs dentro del archivo .aia y en la lógica del sistema han sido reemplazadas por placeholders (marcadores de posición).
 
 Para que el proyecto sea funcional y puedas probarlo o adaptarlo, debera configurar sus propios servicios de Google, siguiendo la estructura descrita:
@@ -125,6 +125,6 @@ Selecciona el Archivo: Sube el archivo .aia descargado de este repositorio.
 
 Explora los Bloques: Una vez importado, podrás visualizar el diseño de la interfaz de usuario en la sección "Designer" y la lógica de programación detallada en la sección "Blocks".
 
-##📄 Licencia
+## 📄 Licencia
 Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
 
